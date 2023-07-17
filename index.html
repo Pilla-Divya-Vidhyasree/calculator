@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="box">
+        <input id="text" />
+        <button id="buttons" type="button" onclick="display('sin')">sin</button>
+        <button id="buttons" style="left:100px;" onclick=" display('cos')">cos</button>
+        <button id="buttons" style="left:180px;" onclick="display('tan')">tan</button>
+        <button id="buttons" style="left:260px;" onclick="display('rad')">rad</button>
+        <button id="buttons" style="left:340px; color:orange;" onclick="display('deg')">deg</button>
+        <button id="buttons" style="left:25px; top:215px;" onclick="display('log')">log</button>
+        <button id="buttons" style="left:100px; top:215px;" onclick="display('ln')">ln</button>
+        <button id="buttons" style="left:180px; top:215px;" onclick="display('(')">(</button>
+        <button id="buttons" style="left:260px; top:215px;" onclick="display(')')">)</button>
+        <button id="buttons" style="left:340px; top:215px;" onclick="display('inv')">inv</button>
+        <button id="buttons" style="left:25px; top:280px;" onclick="display('!')">!</button>
+        <button id="buttons" style="left:100px; top:280px; background-color:#404040;" onclick="display('C')">C</button>
+        <button id="buttons" style="left: 180px; top: 280px; background-color: #404040;" onclick="display('%')">%</button>
+        <button id="buttons" style="left: 260px; top: 280px; background-color: #404040;" onclick="display('del')">del</button>
+        <button id="buttons" style="left: 340px; top: 280px; background-color: #404040;" onclick="display('/')">/</button>
+        <button id="buttons" style="left:25px; top:345px;" onclick="display('^')">^</button>
+        <button id="buttons" style="left: 100px; top: 345px; background-color: #5D5D5D; " onclick="display('7')">7</button>
+        <button id="buttons" style="left: 180px; top: 345px; background-color: #5D5D5D; " onclick="display('8')">8</button>
+        <button id="buttons" style="left: 260px; top: 345px; background-color: #5D5D5D; " onclick="display('9')">9</button>
+        <button id="buttons" style="left: 340px; top: 345px; background-color: #404040;" onclick="display('*')">*</button>
+        <button id="buttons" style="left:25px; top:410px;" onclick="display('root')">root</button>
+        <button id="buttons" style="left: 100px; top: 410px; background-color: #5D5D5D; " onclick="display('4')">4</button>
+        <button id="buttons" style="left: 180px; top: 410px; background-color: #5D5D5D; " onclick="display('5')">5</button>
+        <button id="buttons" style="left: 260px; top: 410px; background-color: #5D5D5D; " onclick="display('6')">6</button>
+        <button id="buttons" style="left: 340px; top: 410px; background-color: #404040;" onclick="display('-')">-</button>
+        <button id="buttons" style="left:25px; top:475px;" onclick="display('3.14')">pi</button>
+        <button id="buttons" style="left: 100px; top: 475px; background-color: #5D5D5D; " onclick="display('1')">1</button>
+        <button id="buttons" style="left: 180px; top: 475px; background-color: #5D5D5D; " onclick="display('2')">2</button>
+        <button id="buttons" style="left: 260px; top: 475px; background-color: #5D5D5D; " onclick="display('3')">3</button>
+        <button id="buttons" style="left: 340px; top: 475px; background-color: #404040;" onclick="display('+')">+</button>
+        <button id="buttons" style="left:25px; top:540px;" onclick="display('e')">e</button>
+        <button id="buttons" style="left: 100px; top: 540px; background-color: #5D5D5D; " onclick="display('0')">0</button>
+        <button id="buttons" style="left: 180px; top: 540px; background-color: #5D5D5D; " onclick="display('00')">00</button>
+        <button id="buttons" style="left: 260px; top: 540px; background-color: #5D5D5D; " onclick="display('.')">.</button>
+        <button id="buttons" style="left:340px; top:540px; background-color:orange;" onclick="solve()">=</button>
+    </div>
+  <script src="./index.js"></script>
+    </body>
+</html>
