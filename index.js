@@ -10,6 +10,10 @@ function display(val) {
                 }
                 document.getElementById("text").value = val;
             }
+            else if(val == "root")
+            {
+                        document.getElementById("text").value += String.fromCharCode(U+221A);
+            }
             else {
                 document.getElementById("text").value += val;
             }
